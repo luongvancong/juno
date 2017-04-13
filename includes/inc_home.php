@@ -1,21 +1,13 @@
 <div id="slide-thumb" class="wow fadeIn slide-thumb">
     <section class="photoslider-section no-padding">
         <div id="home-slider" class="owl-carousel owl-theme">
-            <div class="item">
-                <a href="products/dep-sandal-sd01034.html">
-                <img src="/assets/file.hstatic.net/1000003969/file/sd01034-banner-web-fix.jpg" />
-                </a>
-            </div>
-            <div class="item">
-                <a href="products/giay-sandal-sd01033.html">
-                <img src="/assets/file.hstatic.net/1000003969/file/sd01033-banner-web-fix2.jpg" />
-                </a>
-            </div>
-            <div class="item">
-                <a href="products/giay-xang-dan-quai-ngang-cao-5cm-cheer-up-sd05009.html">
-                <img src="/assets/file.hstatic.net/1000003969/file/banner-web-sd05009-fix2.jpg" />
-                </a>
-            </div>
+            <?php for($i = 0; $i < 3; $i ++): ?>
+                <div class="item">
+                    <a href="/single-product.php">
+                    <img src="/assets/file.hstatic.net/1000003969/file/sd01034-banner-web-fix.jpg" />
+                    </a>
+                </div>
+            <?php endfor; ?>
         </div>
         <script>
             $("#home-slider").owlCarousel({
@@ -43,10 +35,10 @@
         </div>
         <div class="home-filter-top5 center-product product-item products-resize home-filter-product-new">
             <?php for($i = 0; $i < 5; $i ++): ?>
-            <div id="1004310600" class="product-wrapper image1x height-index clickImageUrl" >
+            <div class="product-wrapper image1x height-index clickImageUrl" >
                 <div class="product-information">
                     <div class="product-detail product-detail-1004310600 height-index-1 background-size newclick">
-                        <a class="newclick" href="products/dep-sandal-sd01034.html" title="Dép sandal đế bệt quai chéo SD01034">
+                        <a class="newclick" href="/single-product.php" title="Dép sandal đế bệt quai chéo SD01034">
                             <div class="product-image" style="position:relative;overflow:hidden;">
                                 <img class="image-default" src="/assets/product.hstatic.net/1000003969/product/nau_125_51_medium.jpg" alt="Dép sandal đế bệt quai chéo SD01034" />
                                 <img class="image-hover" src="/assets/product.hstatic.net/1000003969/product/nau_125_51_medium.jpg" src="/assets/product.hstatic.net/1000003969/product/den_125_45_medium.jpg" alt="Dép sandal đế bệt quai chéo SD01034" />
@@ -54,7 +46,7 @@
                         </a>
                         <div class="topdeal-tags"></div>
                         <div class="product-info " >
-                            <a class="newclick" href="products/dep-sandal-sd01034.html" title="Dép sandal đế bệt quai chéo SD01034">
+                            <a class="newclick" href="/single-product.php" title="Dép sandal đế bệt quai chéo SD01034">
                                 <h2>
                                     SD01034
                                 </h2>
@@ -98,10 +90,10 @@
                 </div>
                 <div class="center-product product-item products-resize home-filter-product-new">
                     <?php for($i = 0; $i < 15; $i ++): ?>
-                        <div id="1004642621" class="product-wrapper image1x height-index clickImageUrl" >
+                        <div class="product-wrapper image1x height-index clickImageUrl" >
                             <div class="product-information">
                                 <div class="product-detail product-detail-1004642621 height-index-1 background-size newclick">
-                                    <a class="newclick" href="products/tui-xach-trung-txt054.html" title="Túi xách cỡ trung phom dáng cách điệu hình học TXT054">
+                                    <a class="newclick" href="/single-product.php" title="Túi xách cỡ trung phom dáng cách điệu hình học TXT054">
                                         <div class="product-image" style="position:relative;overflow:hidden;">
                                             <img class="image-default" src="/assets/product.hstatic.net/1000003969/product/hong_60__medium.jpg" alt="Túi xách cỡ trung phom dáng cách điệu hình học TXT054" />
                                             <img class="image-hover" src="/assets/product.hstatic.net/1000003969/product/hong_60__medium.jpg" src="/assets/product.hstatic.net/1000003969/product/hong_60__medium.jpg" alt="Túi xách cỡ trung phom dáng cách điệu hình học TXT054" />
@@ -114,7 +106,7 @@
                                     <div class="no-tags hidden"></div>
                                     <!--end chèn lable mới-->
                                     <div class="product-info " >
-                                        <a class="newclick" href="products/tui-xach-trung-txt054.html" title="Túi xách cỡ trung phom dáng cách điệu hình học TXT054">
+                                        <a class="newclick" href="/single-product.php" title="Túi xách cỡ trung phom dáng cách điệu hình học TXT054">
                                             <h2>
                                                 TXT054
                                             </h2>
@@ -137,27 +129,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <script>
-                                $(document).ready(function(){
-
-                                    $('.product-detail-1004642621').click(function(){
-                                        window.location = '/products/tui-xach-trung-txt054';
-                                    });
-
-                                    var id=1004642621;
-                                    var sku='TXT054';
-
-                                    $('.buttoncart').hide();
-
-                                    $('#'+id+'.product-wrapper .product-information').hover(function(){
-                                        hoverproduct(id);
-                                    },function(){
-                                        nonehoverproduct(id);
-                                    });
-
-
-                                });
-                            </script>
                         </div>
                     <?php endfor; ?>
                 </div>
@@ -187,11 +158,11 @@
                         <div id="owl-blog-slider" class="owl-carousel owl-theme">
                             <?php for($i = 0; $i < 5; $i ++): ?>
                                 <div class="blog-slider-item 5">
-                                    <a href="blogs/meo/meo-bao-quan-giay-va-tui-xach-mua-nang-nong.html" target="_blank"><img src="/assets/file.hstatic.net/1000003969/file/kel_0077_copy_1024x1024.jpg" alt="Mẹo bảo quản giày và túi xách mùa nắng nóng"></a>
+                                    <a href="/single-blog.php" target="_blank"><img src="/assets/file.hstatic.net/1000003969/file/kel_0077_copy_1024x1024.jpg" alt="Mẹo bảo quản giày và túi xách mùa nắng nóng"></a>
                                     <div class="blog-slider-info">
                                         <a href="blogs/meo.1.html" target="_blank" class="blog-category">Mẹo</a>
                                         <h3>
-                                            <a href="blogs/meo/meo-bao-quan-giay-va-tui-xach-mua-nang-nong.html" target="_blank" class="blog-title">Mẹo bảo quản giày và túi xách mùa nắng nóng</a>
+                                            <a href="/single-blog.php" target="_blank" class="blog-title">Mẹo bảo quản giày và túi xách mùa nắng nóng</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -230,13 +201,13 @@
                             </h2>
                             <?php for($i = 0; $i < 5; $i ++): ?>
                                 <div class="clearfix blog-read-item">
-                                    <a href="blogs/meo/meo-bao-quan-giay-va-tui-xach-mua-nang-nong.html" target="_blank">
+                                    <a href="/single-blog.php" target="_blank">
                                         <div class="item-img pull-left">
                                             <img class="lazy" src="/assets/file.hstatic.net/1000003969/file/kel_0077_copy_1024x1024.jpg"/><span style="margin-left:-100px">1</span>
                                         </div>
                                     </a>
                                     <div class="caption pull-right" >
-                                        <h3 class="title"><a href="blogs/meo/meo-bao-quan-giay-va-tui-xach-mua-nang-nong.html" target="_blank">Mẹo bảo quản giày và túi xách mùa nắng nóng</a></h3>
+                                        <h3 class="title"><a href="/single-blog.php" target="_blank">Mẹo bảo quản giày và túi xách mùa nắng nóng</a></h3>
                                         <span class="date">11.04.2017</span>
                                         <a href="blogs/meo.1.html" target="_blank" class="title-category">Tin Mẹo</a>
                                     </div>

@@ -5,23 +5,23 @@
                 <div class='container'>
                     <div class='menu-foot hidden-xs'>
                         <ul>
-                            <li><a href="mot.1.html">Mốt</a></li>
-                            <li><a href="dep.1.html">Đẹp</a></li>
-                            <li><a href="khoe.html">Khoẻ</a></li>
-                            <li><a href="meo.1.html">Mẹo</a></li>
-                            <li><a href="ngon.html">Ngon</a></li>
-                            <li><a href="em.html">Em</a></li>
-                            <li><a href="song.html">Sống</a></li>
+                            <li><a href="/archive-blog.php">Mốt</a></li>
+                            <li><a href="/archive-blog.php">Đẹp</a></li>
+                            <li><a href="/archive-blog.php">Khoẻ</a></li>
+                            <li><a href="/archive-blog.php">Mẹo</a></li>
+                            <li><a href="/archive-blog.php">Ngon</a></li>
+                            <li><a href="/archive-blog.php">Em</a></li>
+                            <li><a href="/archive-blog.php">Sống</a></li>
                         </ul>
-                        <a title="Trang shop JUNO" id="home-foot" href="../index.html" target="_blank" ><i class="fa fa-home"></i> Trang shop JUNO</a>
+                        <a title="Trang shop JUNO" id="home-foot" href="/" target="_blank" ><i class="fa fa-home"></i> Trang shop JUNO</a>
                     </div>
                     <div class='row foot'>
                         <div class='col-md-5 col-sm-10 col-xs-10'>
                             <div class='files'>
                                 <ul>
-                                    <li><a href="../pages/gioi-thieu.html">Giới thiệu</a></li>
-                                    <li><a href="../pages/lien-he.html">Liên hệ</a></li>
-                                    <li><a href="../sitemap.xml">Site map</a></li>
+                                    <li><a href="/page.php">Giới thiệu</a></li>
+                                    <li><a href="/page.php">Liên hệ</a></li>
+                                    <li><a href="/page.php">Site map</a></li>
                                 </ul>
                             </div>
                             <div class='coppyright'>
@@ -62,15 +62,15 @@
                     </div>
                     <div class='link-bottom'>
                         <ul>
-                            <li><a href='../collections/giay-xang-dan.html'>Giầy Xăng Đan</a></li>
-                            <li><a href='../collections/giay-bup-be.html'>Giày Búp Bê</a></li>
-                            <li><a href='../collections/giay-cao-got.html'>Giày Cao Gót</a></li>
-                            <li><a href='../collections/giay-boots.html'>Giày Boots</a></li>
-                            <li><a href='../collections/tui-xach.html'>Túi Xách</a></li>
-                            <li><a href='../collections/that-lung.html'>Phụ Kiện</a></li>
-                            <li><a href='../collections/clear-stock.html'>Clearstock</a></li>
-                            <li><a href='../collections/san-pham-moi-nhat.html'>Sản Phẩm Mới</a></li>
-                            <li><a href='../collections/san-pham-top.html'>Sản Phẩm Top</a></li>
+                            <li><a href='/archive-product.php'>Giầy Xăng Đan</a></li>
+                            <li><a href='/archive-product.php'>Giày Búp Bê</a></li>
+                            <li><a href='/archive-product.php'>Giày Cao Gót</a></li>
+                            <li><a href='/archive-product.php'>Giày Boots</a></li>
+                            <li><a href='/archive-product.php'>Túi Xách</a></li>
+                            <li><a href='/archive-product.php'>Phụ Kiện</a></li>
+                            <li><a href='/archive-product.php'>Clearstock</a></li>
+                            <li><a href='/archive-product.php'>Sản Phẩm Mới</a></li>
+                            <li><a href='/archive-product.php'>Sản Phẩm Top</a></li>
                         </ul>
                     </div>
                 </div>

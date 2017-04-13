@@ -61,7 +61,7 @@
                     <div class="row">
                         <a class="continue-shopping btn btn-default" title="Mua tiếp" href="https://juno.vn">Mua tiếp</a>
                         <button class="update-cart btn btn-default" name="submit">Cập nhật giỏ hàng</button>
-                        <a class="continue-shopping thanhtoan btn btn-default" href="javascript:void(0)">
+                        <a class="continue-shopping thanhtoan btn btn-default" href="/checkout.php">
                         Thanh toán
                         </a>
                     </div>

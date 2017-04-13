@@ -14,7 +14,7 @@
                                     <ul class="menu_footer">
                                         <?php for($i = 0; $i < 5; $i ++): ?>
                                             <li>
-                                                <a href="collections/giay-bup-be.html" title="Giày búp bê">
+                                                <a href="/archive-product.php" title="Giày búp bê">
                                                 <img src="/assets/file.hstatic.net/1000003969/file/icon_footer_1.svg" alt="Giày búp bê" class="img-responsive" />
                                                 <span class="label_footer">Búp bê</span>
                                                 </a>
@@ -111,13 +111,13 @@
                             <div class="container">
                                 <div class="row">
                                     <ul class="instuction_footer">
-                                        <li><a href="blogs/tin-tuc-juno.html" title="Hướng dẫn chọn cỡ giày">Tin tức, khuyến mãi JUNO</a></li>
-                                        <li><a href="pages/huong-dan-chon-size-giay.html" title="Hướng dẫn chọn cỡ giày">Hướng dẫn chọn cỡ giày</a></li>
-                                        <li><a href="pages/chinh-sach-khach-hang-than-thiet.html" title="Chính sách khách hàng thân thiết">Chính sách khách hàng thân thiết</a></li>
-                                        <li><a href="pages/chinh-sach-doi-tra-va-hoan-tien.html" title="Chính sách đổi trả">Chính sách Đổi/Trả</a></li>
-                                        <li><a href="pages/thanh-toan-giao-nhan.html" title="Thanh toán giao nhận">Thanh toán giao nhận</a></li>
-                                        <li><a href="pages/chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
-                                        <li><a href="pages/gioi-thieu.html" title="Giới thiệu; Liên hệ...">Các thông tin khác</a></li>
+                                        <li><a href="/page.php" title="Hướng dẫn chọn cỡ giày">Tin tức, khuyến mãi JUNO</a></li>
+                                        <li><a href="/page.php" title="Hướng dẫn chọn cỡ giày">Hướng dẫn chọn cỡ giày</a></li>
+                                        <li><a href="/page.php" title="Chính sách khách hàng thân thiết">Chính sách khách hàng thân thiết</a></li>
+                                        <li><a href="/page.php" title="Chính sách đổi trả">Chính sách Đổi/Trả</a></li>
+                                        <li><a href="/page.php" title="Thanh toán giao nhận">Thanh toán giao nhận</a></li>
+                                        <li><a href="/page.php" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                                        <li><a href="/page.php" title="Giới thiệu; Liên hệ...">Các thông tin khác</a></li>
                                     </ul>
                                 </div>
                             </div>
